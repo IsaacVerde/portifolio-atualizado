@@ -463,6 +463,94 @@ a{
     background-color: #0056b3;
 }
 
-/*Pagina Contato*/
+/*Responsividade do cao Pagina inicial*/
+@media (max-width: 768px){
+    .logo{
+        visibility: hidden;
+    }
+    .menu{
+        position: absolute;
+        right: 55px;
+    }
+    .home-info h1 {
+        font-size: 35px;
+    }
+    
+    .home-info h2 {
+        font-size: 25px;
+    }
+    
+    .home-info p {
+        font-size: 14px;
+    }
+    
+    .home-info .btn-sci .sci a{
+        font-size: 16px;
+
+    }
+    .sci{
+        display: flex;
+        flex-direction: row;
+        gap: 1px;
+        
+    }
+    /*Responsividade do cao Pagina Experiencias*/
+    .home-img .img-box {
+        width: 12vw;
+        height: 12vw;
+    }
+    
+    .home-img .img-box .img-item img{
+        width: 75%;
+    }
+    
+    .home-img2 .img-box2 {
+        width: 12vw;
+        height: 12vw;
+    }
+    
+    .home-img2 .img-box2 .img-item2 img{
+        width: 125%;
+    }
+    .tabelaEscolaridade{
+        width: 5px;
+    }
+        /*Responsividade do cao Pagina Projetos*/
+    .home3{
+        top: 50px;
+    }
+    
+    .home-info3 .projetos {
+        font-size: 35px;
+    }
+    
+    .home-info3 .meusProjetos span {
+        font-size: 25px;
+    }
+    
+    .home-info3 p {
+        font-size: 14px;
+    }
+    
+    .projetos-sessao{
+        padding: 4rem;
+    }
+    
+    .meusProjetos{
+        font-size: 35px;
+    }
+    
+    .projetos-container{
+        gap: 1rem;
+    }
+    
+    .projeto{
+        width: 250px;
+    }
+    
+    .btn-projeto{
+        padding: 0.5rem 0.8rem;
+    }
+}
 
 
