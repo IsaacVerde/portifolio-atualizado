@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Calculadora</title>
+</head>
+<body>
+    
+<div class="fundo">
+    <h1>Isaac Santos</h1>
+    <div class="calculadora">
+        <h1>Calculadora</h1>
+        <p id="resultado"></p>
+        <table> 
+            <tr>
+                <td><button class="botao" onclick="clean()"> C </button></td>
+                <td><button class="botao"onclick="back()"> < </button></td>
+                <td><button class="botao"onclick="insert('/')"> / </button></td>
+                <td><button class="botao"onclick="insert('*')"> X </button></td>
+            </tr>
+            <tr>
+                <td><button class="botao"onclick="insert('7')"> 7 </button></td>
+                <td><button class="botao"onclick="insert('8')"> 8 </button></td>
+                <td><button class="botao"onclick="insert('9')"> 9</button></td>
+                <td><button class="botao"onclick="insert('-')"> - </button></td>
+            </tr>
+            <tr>
+                <td><button class="botao"onclick="insert('4')"> 4 </button></td>
+                <td><button class="botao"onclick="insert('5')"> 5 </button></td>
+                <td><button class="botao"onclick="insert('6')"> 6 </button></td>
+                <td><button class="botao"onclick="insert('+')"> + </button></td>
+            </tr>
+            <tr>
+                <td><button class="botao"onclick="insert('1')"> 1 </button></td>
+                <td><button class="botao"onclick="insert('2')"> 2 </button></td>
+                <td><button class="botao"onclick="insert('3')"> 3 </button></td>
+                <td rowspan="2"><button class="botao"onclick="calcular('=')" style="height: 106px; width: 100%;"> = </button></td>
+
+            </tr>
+            <tr>
+                <td colspan="2"><button class="botao"onclick="insert('0')" style="width: 106px;"> 0 </button></td>
+                <td ><button class="botao"onclick="insert('.')"> . </button></td> 
+            </tr>
+    </div> 
+    <script>
+        function insert(num) {
+            var resultado = document.getElementById('resultado');
+            if (num === 'x') {
+                resultado.innerHTML += '*';
+            } else {
+                resultado.innerHTML += num;
+            }
+        }
+    
+        function clean() {
+            document.getElementById('resultado').innerHTML = "";
+        }
+    
+        function back() {
+            var resultado = document.getElementById('resultado').innerHTML;
+            document.getElementById('resultado').innerHTML = resultado.substring(0, resultado.length - 1);
+        }
+    
+        function calcular() {
+            var resultado = document.getElementById('resultado').innerHTML;
+            if (resultado) {
+                try {
+                    document.getElementById('resultado').innerHTML = eval(resultado);
+                } catch (e) {
+                    document.getElementById('resultado').innerHTML = "Erro";
+                }
+            }
+        }
+    </script>
+    
+    
+
+</div>
+</body>
+</html>

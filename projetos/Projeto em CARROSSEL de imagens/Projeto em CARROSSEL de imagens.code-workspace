@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Projeto em CARROSSEL de imagens",
+			"path": "."
+		},
+		{
+			"name": "Projeto-Catalogo",
+			"path": "Projeto-Catalogo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Projeto em CARROSSEL de imagens"
+	}
+}
