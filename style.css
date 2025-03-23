@@ -463,7 +463,7 @@ a{
     background-color: #0056b3;
 }
 
-/*Responsividade do cao Pagina inicial*/
+/**************Responsividade do cao Pagina inicial*/
 @media (max-width: 768px){
     .logo{
         visibility: hidden;
@@ -486,7 +486,9 @@ a{
     
     .home-info .btn-sci .sci a{
         font-size: 16px;
-
+    }
+    .home-img .img-box {
+        visibility: hidden;
     }
     .sci{
         display: flex;
@@ -494,19 +496,28 @@ a{
         gap: 1px;
         
     }
-    /*Responsividade do cao Pagina Experiencias*/
-    .home-img .img-box {
-        width: 12vw;
-        height: 12vw;
+    /***********Responsividade do cao Pagina Experiencias*/
+    .menuDois{
+        margin-top: 10px;
+        position: absolute;
+        right: 40px;
+        top: -10px;
+    }
+    .escolaridade{
+        visibility: hidden;
     }
     
-    .home-img .img-box .img-item img{
-        width: 75%;
-    }
+   .tabelaEscolaridade{
+    position: relative;
+    width: 50%;
+    top: 10px;
+
+   }
     
     .home-img2 .img-box2 {
         width: 12vw;
         height: 12vw;
+        visibility: hidden;
     }
     
     .home-img2 .img-box2 .img-item2 img{
@@ -515,7 +526,15 @@ a{
     .tabelaEscolaridade{
         width: 5px;
     }
-        /*Responsividade do cao Pagina Projetos*/
+    /****Responsividade do cao Pagina projetos*/
+
+
+    .menuTres{
+        margin-top: 10px;
+        position: absolute;
+        right: 40px;
+        top: -10px;
+    }
     .home3{
         top: 50px;
     }
@@ -547,10 +566,13 @@ a{
     .projeto{
         width: 250px;
     }
-    
-    .btn-projeto{
-        padding: 0.5rem 0.8rem;
-    }
+
 }
 
-
+/********Pagina Sobre*/
+.menuQuatro{
+    margin-top: 10px;
+    position: absolute;
+    right: 40px;
+    top: -10px;
+}
