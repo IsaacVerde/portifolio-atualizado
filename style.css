@@ -497,11 +497,11 @@ a{
         
     }
     /***********Responsividade do cao Pagina Experiencias*/
+
     .menuDois{
-        margin-top: 10px;
         position: absolute;
-        right: 40px;
-        top: -10px;
+        right: -10px;
+        top: 10px;
     }
     .escolaridade{
         visibility: hidden;
@@ -509,7 +509,7 @@ a{
     
    .tabelaEscolaridade{
     position: relative;
-    width: 50%;
+    right: 15px;
     top: 10px;
 
    }
@@ -530,10 +530,9 @@ a{
 
 
     .menuTres{
-        margin-top: 10px;
         position: absolute;
-        right: 40px;
-        top: -10px;
+        right: -10px;
+        top: 10px;
     }
     .home3{
         top: 50px;
@@ -573,6 +572,6 @@ a{
 .menuQuatro{
     margin-top: 10px;
     position: absolute;
-    right: 40px;
-    top: -10px;
+    right: -10px;
+    top: 10px;
 }
