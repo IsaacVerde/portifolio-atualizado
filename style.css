@@ -89,44 +89,6 @@ a{
     
 }
 
-.home-info h2 span {
-    position: relative;
-    display: inline-block;
-    color: transparent;
-    -webkit-text-stroke: .7px blue;
-    animation: display-text 12s linear infinite;;
-    animation-delay:calc(-4s * var(--i));
-}
-
-@keyframes display-text{
-
-    25%,
-    100%{
-        display: none;
-    }
-}
-
-.home-info h2 span::before{
-    content: attr(data-text);
-    position: absolute;
-    width: 0;
-    border-right: 2px solid #0289ff;
-    color: #0289ff;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: fill-text 4s linear infinite;
-    animation-delay:calc(-4s * var(--i));
-} 
-
-@keyframes fill-text{
-    10%,100%{
-        width: 0;
-    }
-    70%,90%{
-        width: 100%;
-    }
-}
-
 .home-info p {
     font-size: 16px;
     margin: 10px 0 25px;
@@ -417,6 +379,27 @@ a{
     text-align: center;
    
 }
+
+.filtros{
+    text-align: center;
+    margin-top: 70px;
+}
+.btn-filtro{
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease
+
+}
+.btn-filtro:hover{
+    background-color:#002080; 
+    color: white;
+
+}
+
+
+
 .meusProjetos{
     font-size: 55px;
     margin-bottom: 1rem;
@@ -464,6 +447,7 @@ a{
 }
 
 /**************Responsividade do cao Pagina inicial*/
+
 @media (max-width: 768px){
     .logo{
         visibility: hidden;
@@ -526,6 +510,7 @@ a{
     .tabelaEscolaridade{
         width: 5px;
     }
+
     /****Responsividade do cao Pagina projetos*/
 
 
@@ -569,6 +554,7 @@ a{
 }
 
 /********Pagina Sobre*/
+
 .menuQuatro{
     margin-top: 10px;
     position: absolute;

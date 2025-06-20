@@ -1,87 +1,163 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Portifolio Com HTML e CSS</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar">
-        <a href="#" class="logo">Portifolio</a>
-        <ul class="menuTres">
-            <li><a href="./index.html" class="active">Inicio</a></li>
-            <li><a href="./experiencia.html">Experiencia</a></li>
-            <li><a href="./projetos.html">Projetos</a></li>
-            <li><a href="./sobre.html">Sobre</a></li>
-        </ul>
+      <a href="#" class="logo">Portifolio</a>
+      <ul class="menuTres">
+        <li><a href="./index.html" class="active">Inicio</a></li>
+        <li><a href="./experiencia.html">Experiencia</a></li>
+        <li><a href="./projetos.html">Projetos</a></li>
+        <li><a href="./sobre.html">Sobre</a></li>
+      </ul>
     </nav>
 
     <div class="bars-animation">
-        <div class="bar" style="--i:6;"></div>
-        <div class="bar" style="--i:5;"></div>
-        <div class="bar" style="--i:4;"></div>
-        <div class="bar" style="--i:3;"></div>
-        <div class="bar" style="--i:2;"></div>
-        <div class="bar" style="--i:1;"></div>
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
     </div>
 
     <section class="home3">
-        <div class="home-info3">
-          <div class="projetos">
-            <h1 class="meusProjetos">Meus 
-                <span style="--i:J;" data-text="Projetos">Projetos</span>
-            </h1>
-            <p class="lead text-body-secondary">Todos os meus projetos pessoais foram desenvolvidos com dedicação e curiosidade, contando apenas com recursos disponíveis no YouTube e algumas ferramentas. Cada trabalho reflete meu esforço em aprender e crescer, explorando ideias e soluções criativas.</p>
-            <p style="display: flex; gap: 10px; align-items: center; justify-content: center;">
-              <a href="#" class="btn" >Ver Projetos</a>
-              <a href="#" class="btn" >Entre em Contato</a>
-            </p>
-          </div>
+      <div class="home-info3">
+        <div class="projetos">
+          <h1 class="meusProjetos">
+            Meus
+            <span style="--i: J" data-text="Projetos">Projetos</span>
+          </h1>
+          <p class="lead text-body-secondary">
+            Todos os meus projetos pessoais foram desenvolvidos com dedicação e
+            curiosidade, contando apenas com recursos disponíveis no YouTube e
+            algumas ferramentas. Cada trabalho reflete meu esforço em aprender e
+            crescer, explorando ideias e soluções criativas.
+          </p>
+          <p
+            style="
+              display: flex;
+              gap: 10px;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <a href="#" class="btn">Ver Projetos</a>
+            <a href="#" class="btn">Entre em Contato</a>
+          </p>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="projetos-sessao">
-        <div class="projetos-container">
-            <!-- Projeto Calculadora -->
-            <div class="projeto">
-                <img src="./projetos/Projeto Calculadora Digital/img/Captura de tela 2025-03-03 162007.png" alt="Calculadora" class="projeto-img">
-                <h3>Calculadora</h3>
-                <p>Neste projeto fiz uma calculadora com HTML, CSS e JS.</p>
-                <a href="https://isaacverde.github.io/calculadora/" class="btn btn-projeto" target="_blank">Ver Projeto</a>
-            </div>
-            <!-- Projeto Tempo -->
-            <div class="projeto">
-              <img src="./projetos/APP De Previsao do Tempo Com HTML e CSS e Java/Captura de tela 2025-03-07 001647.png" alt="Projeto 1" class="projeto-img">
-              <h3>Previsao Do Tempo 🌞</h3>
-              <p>Neste projeto desenvolvi um site que busca o clima atraves de uma API, utilizando HTML, CSS e JS.</p>
-              <a href="https://isaacverde.github.io/previsao-tempo/" class="btn btn-projeto" target="_blank">Ver Projeto</a>
-          </div>
-            <!-- Projeto Relogio -->
-            <div class="projeto">
-              <img src="./projetos/Rel-gio-Digital/relogio em gtml.png" alt="Projeto 1" class="projeto-img">
-              <h3>Relogio </h3>
-              <p>Nesto projeto fiz um relogio simples, utilizando HTML, CSS e JS.</p>
-              <a href="https://relogio-l4udwkmdh-isaacs-projects-37b8b073.vercel.app/" class="btn btn-projeto" target="_blank">Ver Projeto</a>
-          </div>
-          <!-- Projeto Carrosel De Imagens -->
-          <div class="projeto">
-            <img src="./projetos/Projeto em CARROSSEL de imagens/Catalogo de beats.png" alt="Projeto 1" class="projeto-img">
-            <h3>Carrosel de imagens</h3>
-            <p>Neste projeto fiz um carrosel de imagens, utilizando HTML, CSS e JS.</p>
-            <a href="https://projeto-catalogo-hh5edf9f9-isaacs-projects-37b8b073.vercel.app/" class="btn btn-projeto" target="_blank">Ver Projeto</a>
+    <div class="filtros">
+      <button class="btn-filtro" data-filter="all">Todos</button>
+      <button class="btn-filtro" data-filter="calculadora">Calculadoras</button>
+      <button class="btn-filtro" data-filter="utilidade">Utilitários</button>
+      <button class="btn-filtro" data-filter="galeria">Galeria</button>
+    </div>
+
+    <!--PROJETOS AQUI EM BAIXO-->
+    <section class="projetos-sessao">
+      <div class="projetos-container">
+        <!-- Projeto Calculadora -->
+        <div class="projeto" data-category="calculadora">
+          <img
+            src="./projetos/Projeto Calculadora Digital/img/Captura de tela 2025-03-03 162007.png"
+            alt="Calculadora"
+            class="projeto-img"
+          />
+          <h3>Calculadora</h3>
+          <p>Neste projeto fiz uma calculadora com HTML, CSS e JS.</p>
+          <a
+            href="https://isaacverde.github.io/calculadora/"
+            class="btn btn-projeto"
+            target="_blank"
+            >Ver Projeto</a
+          >
+        </div>
+        <!-- Projeto Tempo -->
+        <div class="projeto">
+          <img
+            src="./projetos/APP De Previsao do Tempo Com HTML e CSS e Java/Captura de tela 2025-03-07 001647.png"
+            alt="Projeto 1"
+            class="projeto-img"
+          />
+          <h3>Previsao Do Tempo 🌞</h3>
+          <p>
+            Neste projeto desenvolvi um site que busca o clima atraves de uma
+            API, utilizando HTML, CSS e JS.
+          </p>
+          <a
+            href="https://isaacverde.github.io/previsao-tempo/"
+            class="btn btn-projeto"
+            target="_blank"
+            >Ver Projeto</a
+          >
+        </div>
+        <!-- Projeto Relogio -->
+        <div class="projeto">
+          <img
+            src="./projetos/Rel-gio-Digital/relogio em gtml.png"
+            alt="Projeto 1"
+            class="projeto-img"
+          />
+          <h3>Relogio</h3>
+          <p>
+            Nesto projeto fiz um relogio simples, utilizando HTML, CSS e JS.
+          </p>
+          <a
+            href="https://relogio-l4udwkmdh-isaacs-projects-37b8b073.vercel.app/"
+            class="btn btn-projeto"
+            target="_blank"
+            >Ver Projeto</a
+          >
+        </div>
+        <!-- Projeto Carrosel De Imagens -->
+        <div class="projeto">
+          <img
+            src="./projetos/Projeto em CARROSSEL de imagens/Catalogo de beats.png"
+            alt="Projeto 1"
+            class="projeto-img"
+          />
+          <h3>Carrosel de imagens</h3>
+          <p>
+            Neste projeto fiz um carrosel de imagens, utilizando HTML, CSS e JS.
+          </p>
+          <a
+            href="https://projeto-catalogo-hh5edf9f9-isaacs-projects-37b8b073.vercel.app/"
+            class="btn btn-projeto"
+            target="_blank"
+            >Ver Projeto</a
+          >
         </div>
         <!-- Projeto Gerador De Senhas -->
         <div class="projeto">
-          <img src="./projetos/Gerador de senha/imgs/Captura de tela 2025-03-21 041210.png" alt="Projeto 1" class="projeto-img">
+          <img
+            src="./projetos/Gerador de senha/imgs/Captura de tela 2025-03-21 041210.png"
+            alt="Projeto 1"
+            class="projeto-img"
+          />
           <h3>Gerador De Senhas</h3>
           <p>Neste projeto fiz um De senhas, utilizando HTML, CSS e JS.</p>
-          <a href="https://isaacverde.github.io/gerador-de-senha/" class="btn btn-projeto" target="_blank">Ver Projeto</a>
-      </div>
+          <a
+            href="https://isaacverde.github.io/gerador-de-senha/"
+            class="btn btn-projeto"
+            target="_blank"
+            >Ver Projeto</a
+          >
         </div>
-        
+      </div>
     </section>
-    
-</body>
+    <script src="script.js"></script>
+
+  </body>
 </html>
