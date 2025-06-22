@@ -339,11 +339,7 @@ a{
     animation: display-text-2 16s linear infinite;
 }
 
-@keyframes display-text-2 {
-    0%, 25% {
-        display: inline-block;
-    }
-}
+
 
 
 .home-info3 .meusProjetos span::before{
@@ -353,8 +349,7 @@ a{
     border-right: 2px solid #0289ff;
     color: #0289ff;
     white-space: nowrap;
-    overflow: hidden;
-    animation: fill-text 2s linear infinite;
+
 } 
 
 .home-info3 p {
@@ -388,7 +383,8 @@ a{
     padding: 0.5rem 1rem;
     margin-top: 0.5rem;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 50px;
+    border: none;
     transition: background-color 0.3s ease
 
 }
