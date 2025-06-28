@@ -406,6 +406,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
+    margin-top: 100px;
 }
 .projeto{
     background-color: rgb(126, 127, 128);
@@ -426,11 +427,15 @@ a{
     border-radius: 8px;
     margin-bottom: 1rem;
 }
-
+.links-projetos{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
 .btn-projeto{
     display: inline-block;
     padding: 0.5rem 1rem;
-    margin-top: 0.5rem;
     background-color: #002080;
     color: #fff;
     text-decoration: none;
@@ -556,4 +561,8 @@ a{
     position: absolute;
     right: -10px;
     top: 10px;
+}
+
+.escondido {
+    display: none !important;
 }
