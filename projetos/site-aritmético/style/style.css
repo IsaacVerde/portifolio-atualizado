@@ -1,0 +1,188 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+}
+
+.menu-lateral {
+  width: 100px;
+  background-color: #323b78;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  gap: 30px;
+}
+.submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.categoria-btn {
+  background: none;
+  color: #ccc;
+  border: none;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.grupo-menu.ativo .submenu {
+  max-height: 300px; /* ou altura necessária */
+}
+
+.tela-inicial {
+  text-align: center;
+  padding: 40px;
+}
+
+#cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card-calculadora {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  box-shadow: 0 0 10px #ccc;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.card-calculadora:hover {
+  transform: scale(1.05);
+}
+
+.icone {
+  color: #ffffffcc;
+  font-size: 32px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icone:hover {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+.conteudo {
+  flex: 1;
+  padding: 40px;
+  background-color: #f2f2f2;
+}
+
+.calculadora {
+  display: none;
+}
+
+.calculadora.ativa {
+  display: block;
+}
+.calculadora-estilo {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.calculadora-estilo h1 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.calculadora-estilo form label {
+  display: block;
+  margin: 10px 0 4px;
+  font-weight: bold;
+}
+
+.calculadora-estilo form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.calculadora-estilo button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #3f51b5;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculadora-estilo button:hover {
+  background-color: #303f9f;
+}
+
+/* Substitua sua media query antiga por esta */
+@media screen and (max-width: 768px) { /* Aumentei o ponto de quebra para pegar tablets também */
+  
+  body {
+    /* Faz o menu ir para cima e o conteúdo para baixo */
+    flex-direction: column;
+  }
+
+  .menu-lateral {
+    /* Transforma o menu em uma barra horizontal no topo */
+    width: 100%;
+    height: auto;
+    flex-direction: row; /* Alinha os itens lado a lado */
+    justify-content: flex-start; /* Alinha no começo */
+    gap: 20px;
+    padding: 15px;
+    overflow-x: auto; /* Adiciona scroll horizontal se os itens não couberem */
+  }
+
+  .grupo-menu.ativo .submenu {
+    /* Ajusta o submenu para o novo layout horizontal */
+    position: absolute;
+    background-color: #3f51b5;
+    border-radius: 8px;
+    padding: 10px;
+    top: 70px; /* Posição abaixo do menu principal */
+    max-height: 500px;
+    flex-direction: row; /* Ícones lado a lado */
+  }
+
+  .conteudo {
+    /* Diminui o espaçamento geral do conteúdo */
+    padding: 20px;
+  }
+
+  .calculadora-estilo {
+    /* Diminui o espaçamento da caixa da calculadora */
+    padding: 20px;
+    margin: 20px 0; /* Ajusta a margem vertical e remove a horizontal */
+  }
+
+  .calculadora-estilo button {
+    font-size: 0.9rem;
+  }
+}
