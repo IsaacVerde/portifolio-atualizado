@@ -375,24 +375,47 @@ a{
    
 }
 
+
 .filtros{
     text-align: center;
     margin-top: 100px;
 }
-.btn-filtro{
-    padding: 0.5rem 1rem;
-    margin-top: 0.5rem;
-    text-decoration: none;
-    border-radius: 50px;
-    border: none;
-    transition: background-color 0.3s ease
-
+/* 1) Seu .btn-filtro original */
+.btn-filtro {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  border-radius: 50px;
+  border: none;
+  transition: background-color 0.5s ease;
 }
-.btn-filtro:hover{
-    background-color:#002080; 
-    color: white;
 
+/* 2) Definição do keyframe */
+@keyframes slideFade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
+/* 3) Base para animação (depois do estilo original) */
+.btn-filtro {
+  opacity: 0;
+  animation: slideFade 0.5s ease-out forwards;
+}
+
+/* 4) Delays escalonados via nth-child */
+.filtros > .btn-filtro:nth-child(1) { animation-delay: 0.2s; }
+.filtros > .btn-filtro:nth-child(2) { animation-delay: 0.4s; }
+.filtros > .btn-filtro:nth-child(3) { animation-delay: 0.6s; }
+.filtros > .btn-filtro:nth-child(4) { animation-delay: 0.8s; }
+/* …adicione mais conforme o número de botões */
+
+
 
 
 
