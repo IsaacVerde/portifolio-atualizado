@@ -65,7 +65,23 @@ const projetosData = [
         linkSite: 'https://relogio-l4udwkmdh-isaacs-projects-37b8b073.vercel.app/',
         linkRepositorio: 'https://github.com/IsaacVerde/Rel-gio-Digital',
         categoria: 'utilidade' 
-    }
+    },
+     {
+         imagem: './projetos/site-aritmético/capa site.jpg', // Lembre-se de trocar o caminho da imagem
+        titulo: 'Calculadoras',
+        descricao: 'Neste projeto fiz um site que tras algumas calculadoras que nao enconctramos no nosso dia a dia, meu proposito para criar esse projeto foi tentar me aventurar bastante com java script. Usei HTML, CSS, JS e algumas APIs Publicas para fazer este projeto.',
+        linkSite: 'https://isaacverde.github.io/calculadoras/',
+        linkRepositorio: 'https://github.com/IsaacVerde/calculadoras',
+        categoria: 'calculadora' 
+    },
+    {
+         imagem: './projetos/resolvedor-de-tretas/capa.jpg', // Lembre-se de trocar o caminho da imagem
+        titulo: 'Solucionador De Brigas',
+        descricao: 'Neste projeto fiz um site que exibe resultados diferentes ao carregar a pagina.Minha motivação para este projeto foi criar algo semelhante o desafio do curso da angela yu porem ela faz o mesmo com dados. Usei HTMl, JS e CSS.',
+        linkSite: 'https://isaacverde.github.io/resolvedor-de-tretas/',
+        linkRepositorio: 'https://github.com/IsaacVerde/resolvedor-de-tretas',
+        categoria: 'utilidade' 
+    },
 ];
 
 // ===================================================
