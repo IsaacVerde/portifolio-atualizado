@@ -1,12 +1,9 @@
 # Portfólio Pessoal de Isaac Verde
 
-![Prévia do Portfólio](./capa-inicial.jpg)
+![Prévia do Portfólio](.capa-inicial.jpg)
 > Projeto de portfólio pessoal desenvolvido para apresentar minhas habilidades, projetos e trajetória como desenvolvedor.
 
 ### ✨ [Acesse a versão online clicando aqui!](https://isaacverde.github.io/portfolio-atualizado/)
-
----
-... (o resto do seu arquivo continua igual)
 
 ---
 
