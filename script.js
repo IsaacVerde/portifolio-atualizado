@@ -91,7 +91,7 @@ const projetosData = [
         categoria: 'templatesEmail' 
     },
     {
-         imagem: './projetos/emails/email 3/imgs/capa email 3.jpg', // Lembre-se de trocar o caminho da imagem
+         imagem: './projetos/emails/email 3/Sem título.jpg', // Lembre-se de trocar o caminho da imagem
         titulo: 'Template E-mail "Live Week"',
         descricao: 'Este é um template para e-mail marketing que eu fiz, pensando em entregar alguns conteudos para pessoas especificas da minha lista de email, pessoas que ja produzem. Segui as boas praticas com um codigo limpo para maior compatibilidade e Aceitação nos lançadores de e-mail.',
         linkSite: 'https://isaacverde.github.io/email-semanal-tres/',
