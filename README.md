@@ -2,7 +2,7 @@
 
 # Portfólio Pessoal de Isaac Verde
 
-<img src="https://github.com/user-attachments/assets/c53f08ef-3c98-44b1-9851-f70096906221" width="400">
+<img src="https://github.com/user-attachments/assets/6e59d002-5cd5-432a-b3ac-7c144ec6f984" width="400">
 
 
 > Projeto de portfólio pessoal desenvolvido para apresentar minhas habilidades, projetos e trajetória como desenvolvedor.
