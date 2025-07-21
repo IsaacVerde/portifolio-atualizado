@@ -47,7 +47,7 @@ Construir este portfólio foi uma jornada de muito aprendizado. Alguns dos princ
 
 * Aprofundar meus conhecimentos em Flexbox e Grid Layout para criar layouts mais complexos.
 * Manipular o DOM com JavaScript para criar interações dinâmicas.
-* Entender o processo de deploy de um site estático utilizando o GitHub Pages.
+* Entender o processo de adicionar e remover conteudos de um site.
 * A importância de ter um código limpo e bem estruturado.
 
 ---
