@@ -188,7 +188,7 @@ a{
     display: block;
     width: 85%;
     object-fit: cover;
-    top: -35%;
+    top: -25%;
     object-fit: cover;
     mix-blend-mode: lighten;
 }
