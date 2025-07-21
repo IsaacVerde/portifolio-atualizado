@@ -1,6 +1,9 @@
+
+
 # Portfólio Pessoal de Isaac Verde
 
-![Prévia da página inicial do portfólio](https://github.com/user-attachments/assets/6193c034-0b6c-43f2-81a2-3689b13989d5)
+<img src="https://github.com/user-attachments/assets/c53f08ef-3c98-44b1-9851-f70096906221" width="400">
+
 
 > Projeto de portfólio pessoal desenvolvido para apresentar minhas habilidades, projetos e trajetória como desenvolvedor.
 ### ✨ [Acesse a versão online clicando aqui!](https://isaacverde.github.io/portfolio-atualizado/)
