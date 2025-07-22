@@ -21,7 +21,7 @@ botoes.forEach((botao) => {
 //DADOS DOS PROJETOS DO PORTIGOLIO===========================================================DADOS DOS PROJETOS DO 
 
 // ===================================================
-// 1. FONTE DE DADOS (O "BANCO DE DADOS" DO SEU PORTFÓLIO)
+// 1. FONTE DE DADOS (O "BANCO DE DADOS" DO MEU PORTFÓLIO)
 // ===================================================
 // Para adicionar, editar ou remover um projeto, você só mexe aqui.
 const projetosData = [
