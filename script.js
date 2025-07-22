@@ -102,8 +102,8 @@ const projetosData = [
          imagem: './projetos/emails/email 4/CAPA EMAIL.png', // Lembre-se de trocar o caminho da imagem
         titulo: 'Template E-mail "Autenticidade e estrategia"',
         descricao: 'Este é um email que eu preparei com algumas informaçoes para meu publico artista e mc, explicando por que ser autentico e exclusivo hoje em dia, é necessario, não apenas uma opção. Eu segui as boas praticas para criar esse email deixando um codigo limpo, otimizado e compativel com os lançadores de email.',
-        linkSite: 'https://github.com/IsaacVerde/email-semanal-quatro',
-        linkRepositorio: 'https://isaacverde.github.io/email-semanal-quatro/',
+        linkSite: 'https://isaacverde.github.io/email-semanal-quatro/',
+        linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-quatro',
         categoria: 'templatesEmail' 
     },
     
