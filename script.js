@@ -84,7 +84,7 @@ const projetosData = [
     },
     {
          imagem: './projetos/emails/email 2/imgs/capa email dois.jpg', // Lembre-se de trocar o caminho da imagem
-        titulo: 'Template E-mail "Best of the Week"',
+        titulo: 'Template E-mail "Melhores Da Semana"',
         descricao: 'Este é um template para e-mail marketing que eu desenvolvi usando minhas informações mesmo como produtor. Usei as boas praticas para manter responsivo e compativel com os lançadores de e-mails mais usados em 2025.',
         linkSite: 'https://isaacverde.github.io/email-semanal-um/',
         linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-dois',
@@ -92,10 +92,18 @@ const projetosData = [
     },
     {
          imagem: './projetos/emails/email 3/Sem título.jpg', // Lembre-se de trocar o caminho da imagem
-        titulo: 'Template E-mail "Live Week"',
+        titulo: 'Template E-mail "Live Semanal"',
         descricao: 'Este é um template para e-mail marketing que eu fiz, pensando em entregar alguns conteudos para pessoas especificas da minha lista de email, pessoas que ja produzem. Segui as boas praticas com um codigo limpo para maior compatibilidade e Aceitação nos lançadores de e-mail.',
         linkSite: 'https://isaacverde.github.io/email-semanal-tres/',
         linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-tres',
+        categoria: 'templatesEmail' 
+    },
+    {
+         imagem: './projetos/emails/email 4/CAPA EMAIL.png', // Lembre-se de trocar o caminho da imagem
+        titulo: 'Template E-mail "Autenticidade e estrategia"',
+        descricao: 'Este é um email que eu preparei com algumas informaçoes para meu publico artista e mc, explicando por que ser autentico e exclusivo hoje em dia, é necessario, não apenas uma opção. Eu segui as boas praticas para criar esse email deixando um codigo limpo, otimizado e compativel com os lançadores de email.',
+        linkSite: 'https://github.com/IsaacVerde/email-semanal-quatro',
+        linkRepositorio: 'https://isaacverde.github.io/email-semanal-quatro/',
         categoria: 'templatesEmail' 
     },
     
