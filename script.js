@@ -21,7 +21,7 @@ botoes.forEach((botao) => {
 //DADOS DOS PROJETOS DO PORTIGOLIO===========================================================DADOS DOS PROJETOS DO 
 
 // ===================================================
-// 1. FONTE DE DADOS (O "BANCO DE DADOS" DO MEU PORTFÓLIO)
+// 1. FONTE DE DADOS (O "BANCO DE DADOS" DO SEU PORTFÓLIO)
 // ===================================================
 // Para adicionar, editar ou remover um projeto, você só mexe aqui.
 const projetosData = [
@@ -105,7 +105,15 @@ const projetosData = [
         linkSite: 'https://isaacverde.github.io/email-semanal-quatro/',
         linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-quatro',
         categoria: 'templatesEmail' 
+    }, {
+         imagem: './projetos/emails/email 5/capa.png', // Lembre-se de trocar o caminho da imagem
+        titulo: 'Template E-mail "Oferta Relampago"',
+        descricao: 'Este email eu desenvolvi para divulgar uma oferta relampago que fiz em meu catalogo. É um email simples mas que reflete os pontos mais fortes e direto do marketing. Usei as boas praticas para maior para compatibilidade com os lançadores de email.',
+        linkSite: 'https://isaacverde.github.io/email-semanal-cinco/',
+        linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-cinco',
+        categoria: 'templatesEmail' 
     },
+
     
 ];
 
