@@ -113,6 +113,15 @@ const projetosData = [
         linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-cinco',
         categoria: 'templatesEmail' 
     },
+    , {
+         imagem: './projetos/emails/email 6/capa.png', // Lembre-se de trocar o caminho da imagem
+        titulo: 'Template E-mail "Convite Para Parceria"',
+        descricao: 'Este é um email bem interessante onde eu disponibilizo a minha lista de emails, mais de 50 instrumentais de graça para que eles usem em algumas plataformas, seguindo alguns termos de uso.Usei table, tr e td e tambem mantive o css inline padrão, cores brancas para maior profissionalismo e alguns giffs para trazer de vez pro mundo da musica e do rap. Este email foi usado em uma campanha real pela brevo.',
+        linkSite: 'https://isaacverde.github.io/email-semanal-seis/',
+        linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-seis',
+        categoria: 'templatesEmail' 
+    },
+
 
     
 ];
