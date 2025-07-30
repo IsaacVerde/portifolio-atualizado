@@ -86,7 +86,7 @@ const projetosData = [
          imagem: './projetos/emails/email 2/imgs/capa email dois.jpg', // Lembre-se de trocar o caminho da imagem
         titulo: 'Template E-mail "Melhores Da Semana"',
         descricao: 'Este é um template para e-mail marketing que eu desenvolvi usando minhas informações mesmo como produtor. Usei as boas praticas para manter responsivo e compativel com os lançadores de e-mails mais usados em 2025.',
-        linkSite: 'https://isaacverde.github.io/email-semanal-um/',
+        linkSite: 'https://isaacverde.github.io/email-semanal-dois/',
         linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-dois',
         categoria: 'templatesEmail' 
     },
