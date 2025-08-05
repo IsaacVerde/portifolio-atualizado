@@ -1,6 +1,6 @@
 
 
-# Portfólio Pessoal de Isaac Verde
+# Portfólio Pessoal de Isaac
 
 <img src="https://github.com/user-attachments/assets/6e59d002-5cd5-432a-b3ac-7c144ec6f984" width="400">
 
