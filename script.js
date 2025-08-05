@@ -114,11 +114,11 @@ const projetosData = [
         categoria: 'templatesEmail' 
     },
     , {
-         imagem: './projetos/emails/email 6/capa.png', // Lembre-se de trocar o caminho da imagem
-        titulo: 'Template E-mail "Convite Para Parceria"',
-        descricao: 'Este é um email bem interessante onde eu disponibilizo a minha lista de emails, mais de 50 instrumentais de graça para que eles usem em algumas plataformas, seguindo alguns termos de uso.Usei table, tr e td e tambem mantive o css inline padrão, cores brancas para maior profissionalismo e alguns giffs para trazer de vez pro mundo da musica e do rap. Este email foi usado em uma campanha real pela brevo.',
-        linkSite: 'https://isaacverde.github.io/email-semanal-seis/',
-        linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-seis',
+         imagem: './projetos/emails/email 7/capaporit.png', // Lembre-se de trocar o caminho da imagem
+        titulo: 'Template E-mail "Free Download"',
+        descricao: 'Este projeto consiste em um template de e-mail marketing em HTML, desenvolvido para uma campanha real na plataforma Brevo. O objetivo principal é a captação e nutrição de leads (artistas e produtores do cenário do rap), oferecendo um pacote com mais de 50 instrumentais gratuitos para uso não-comercial, condicionado a termos de uso específicos.Tecnicamente, o layout foi construído do zero utilizando uma estrutura de <table> com CSS 100% inline, garantindo máxima compatibilidade entre os mais variados clientes de e-mail. O design aposta em uma estética profissional com predominância do branco, contrastando com GIFs animados que criam uma conexão autêntica com o universo da música urbana.',
+        linkSite: 'https://isaacverde.github.io/email-semanal-sete/',
+        linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-sete',
         categoria: 'templatesEmail' 
     },
 
