@@ -113,7 +113,7 @@ const projetosData = [
         linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-cinco',
         categoria: 'templatesEmail' 
     },
-    , {
+     {
          imagem: './projetos/emails/email 6/capa.png', // Lembre-se de trocar o caminho da imagem
         titulo: 'Template E-mail "Podemos Trabalhar Juntos"',
         descricao: 'Este email se refere a uma oportunidade de serviço aos mcs, artistas e produtores, onde eles poderam usar minhas instrumentais seguindo alguns termos de uso. Usei as boas praticas para maior para compatibilidade com os lançadores de email.',
@@ -121,7 +121,7 @@ const projetosData = [
         linkRepositorio: 'https://github.com/IsaacVerde/email-semanal-seis',
         categoria: 'templatesEmail' 
     },
-    , {
+     {
          imagem: './projetos/emails/email 7/capaporit.png', // Lembre-se de trocar o caminho da imagem
         titulo: 'Template E-mail "Free Download"',
         descricao: 'Este projeto consiste em um template de e-mail marketing em HTML, desenvolvido para uma campanha real na plataforma Brevo. O objetivo principal é a captação e nutrição de leads (artistas e produtores do cenário do rap), condicionado a termos de uso específicos.Tecnicamente, o layout foi construído do zero utilizando uma estrutura de <table> com CSS 100% inline, garantindo máxima compatibilidade entre os mais variados clientes de e-mail. O design aposta em uma estética profissional com predominância do branco, contrastando com GIFs animados que criam uma conexão autêntica com o universo da música urbana.',
@@ -219,3 +219,4 @@ document.addEventListener('DOMContentLoaded', () => {
     renderizarProjetos();
     inicializarFiltros();
 });
+
